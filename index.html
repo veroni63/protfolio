@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+    <div class="logo">Veronikka</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <nav id="next_nav">
+        <div class="logo">Veronikka</div>
+        <div class="next_menu">
+            <div class="next_icon" onclick="toggleMenu()">
+             <span></span>    
+             <span></span>    
+             <span></span>   
+            </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+        <img src="./assets/profile-pic.png" alt="">
+        </div>
+        <div class="section_text">
+          <p class="section_text_p1">Hello,I'm</p>
+          <h1 class="title">Veronikka</h1>
+          <p class="section_text_p2">Final year student</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>
+        </div>
+        <div id="social-container">
+             <img src="./assets/linkedin.png" 
+             alt="linkedin"
+             class="icon" 
+             onclick="location.href='https://linkedin.com/in/veronikka-a-88048424b'"
+             />
+             <img src="./assets/github.png"
+              alt="github"
+              class="icon"
+              onclick="location.href='https://github.com/veroni63/'"
+              />
+             <img src="./assets/leedcode.png"
+              alt="leedcode"
+              class="icon"
+              onclick="location.href='https://leetcode.com/u/veronikka_120/'"
+              />
+        </div>
+        </div>
+    </section>
+    <section id="about">
+       <p class="section_text_p1">Get To Know More</p>
+       <h1 class="title">About me</h1>
+       <div class="section-container">
+        <div class="section_pic-container">
+            <img src="./assets/about-pic.png" alt="about"
+            class="about-pic">
+        </div>
+        <div class="about-detalis-container">
+          <div class="about-containers">
+            <div class="details-container">
+               <img src="./assets/experience.png" alt="ex" class="icon">
+             <h3>Experience</h3>
+             <p>Web developer intern
+                <br>
+             AK INFO Private Limited | February 2024</p>
+            </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="ex" class="icon">
+                  <h3>Education</h3>
+                  <p>B.E Computer science and engineering<br/>Current GPA 7.7</p>
+                </div>
+          </div>
+          <div class="text-container">
+                <p>
+                    <b>Experience:</b> <br>
+                    Developed a functional to-do list application during a 12-day
+                    internship using HTML5, CSS, ReactJS, and PHP <br>
+                    Tools: Postman, XAMPP, Visual Studio Code <br>
+                    <b>Education</b> <br>
+                    B.E Computer Science And Engineering 2021 - 2025, <br>
+                       I am currently in my final year at SCAD College of Engineering and 
+                       Technology with an overall 7.6 GPA of 7.7 CGPA <br>
+                </p>
+          </div>
+        </div>
+       </div>
+       <img src="./assets/arrow.png" alt="arrow" class="icon arrow"
+       onclick="location.href=('./#experience')"/>
+
+    </section>
+     <section id="experience">
+         <p class="section_text_p1">Explore My</p>
+         <h1 class="title">Experience</h1>
+         <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skill</h2>
+                    <div class="article-container">
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>Java script</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>React JS</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                       
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools & Framework</h2>
+                    <div class="article-container">
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>Visual Studio Code</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assets/checkmark.png" alt="icon" class="icon">
+                        <div>
+                            <h3>Postman</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                       
+                    </div>
+                </div>
+            </div>
+         </div>
+         <img src="./assets/arrow.png" alt="arrow"
+          class="icon arrow" onclick="location.href='./#projects'"/>
+     </section>
+     <section id="Projects">
+         <p class="section_text_p1">Browse my Recent</p>
+         <h1 class="title">Projects</h1>
+         <div class="experience-details-container">
+          <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+             <img src="./assets/project-1.png" alt="project-1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Github</button>
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Live Demo</button>
+        </div>
+         <div class="details-container color-container">
+          <div class="article-container">
+             <img src="./assets/project-2.png" alt="project-1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Github</button>
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Live Demo</button>
+        </div>
+         <div class="details-container color-container">
+          <div class="article-container">
+             <img src="./assets/project-3.png" alt="project-1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Github</button>
+         <button class="btn btn-color-2 project-btn"onclick="location.href='https://github'">Live Demo</button>
+        </div>
+        </div>
+     </section>
+     <section id="contact">
+       <p class="section_text_p1">Get in Touch</p>
+       <h1 class="title">Contact Me</h1>
+       <div class="contact-info-upper-container
+       ">
+    <div class="contact-info-container">
+        <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon">
+         <p><a href="mailto:veronikka1d20m@gmail.com">veronikka1d20m@gmail.com</a></p>
+        <img src="./assets/linkedin.png" alt="linkedin" class="icon">
+         <p><a href="https://linkedin.com/in/veronikka-a-88048424b">linkedin</a></p>
+    </div>
+    </div>
+     </section>
+     <footer>
+        <div class="menu-links">
+            <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+        </div>
+        <p>Copyright &#169; 2024 veronikka, All Rights Reserved </p>
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
